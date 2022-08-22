@@ -13,6 +13,10 @@ main {
 
 .candle {
   position: absolute;
+  transition: top 0.5s;
+  top: -30px;
+}
+.hide{
   top: -30px;
 }
 
