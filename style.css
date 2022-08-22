@@ -1,8 +1,15 @@
 body {
+  padding: 0;
+  margin: 0;
   background: black;
   position: relative;
+  overflow: hidden;
 }
-
+#confetti-canvas {
+  position: absolute;
+  top: 10rem;
+  height: 100vh;
+}
 main {
   margin: -10rem auto 0 auto;
   display: flex;

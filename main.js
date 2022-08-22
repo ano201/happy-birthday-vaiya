@@ -1,4 +1,5 @@
 const candle = document.getElementsByClassName('candle');
-setTimeout(() =>{
+
+setTimeout(() => {
   candle[0].style.top = "289px";
-}, 5500)
+}, 5500);
