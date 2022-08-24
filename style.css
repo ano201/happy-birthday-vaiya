@@ -70,6 +70,11 @@ main {
   overflow: hidden;
 }
 
+.last{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
 h2 {
   transition: margin 1s;
 }
